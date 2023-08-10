@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BasicExercisesforReadingtheQuran</string>
+    <string name="title_activity_frament">Frament</string>
+    <string name="tab_text_1">1</string>
+    <string name="tab_text_2">2</string>
+    <string name="tab_text_3">3</string>
+    <string name="tab_text_4">4</string>
+    <string name="tab_text_5">5</string>
+    <string name="tab_text_6">6</string>
+    <string name="tab_text_7">7</string>
+    <string name="tab_text_8">8</string>
+    <string name="tab_text_9">9</string>
+    <string name="tab_text_10"> 10</string>
+    <string name="tab_text_11"> 11</string>
+    <string name="tab_text_12"> 12</string>
+    <string name="tab_text_13"> 13</string>
+    <string name="tab_text_14"> 14</string>
+    <string name="title_activity_chapter2">Chapter2</string>
+    <string name="title_activity_chapter3">Chapter3</string>
+    <string name="title_activity_chapter4">Chapter4</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.BasiceTheQuran">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Togame"></activity>
+        <activity android:name=".KuisTebakBacaanHarokatActivity" />
+        <activity android:name=".TanwinKasrohActivity" />
+        <activity android:name=".TanwinFathahActivity" />
+        <activity android:name=".TanwinDhomahActivity" />
+        <activity android:name=".TanwinActivity" />
+        <activity android:name=".KuisTebakTanwinActivity" />
+        <activity android:name=".KuisTebakHijaiyahActivity" />
+        <activity android:name=".KuisTebakHarokatActivity" />
+        <activity android:name=".KuisTebakBacaanActivity" />
+        <activity android:name=".KuisActivity" />
+        <activity android:name=".HijaiyahActivity" />
+        <activity android:name=".HarokatKasrohActivity" />
+        <activity android:name=".HarokatFathahActivity" />
+        <activity android:name=".HarokatDhomahActivity" />
+        <activity android:name=".HarokatActivity" />
+        <activity android:name=".BelajarActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".P2n51" />
+        <activity android:name=".P2n50" />
+        <activity android:name=".P2n49" />
+        <activity android:name=".P2n48" />
+        <activity android:name=".P2n47" />
+        <activity android:name=".P2n46" />
+        <activity android:name=".P2n45" />
+        <activity android:name=".P2n44" />
+        <activity android:name=".P2n43" />
+        <activity android:name=".P2n42" />
+        <activity android:name=".P2n41" />
+        <activity android:name=".P2n27" />
+        <activity android:name=".P2n40" />
+        <activity android:name=".P2n39" />
+        <activity android:name=".P2n38" />
+        <activity android:name=".P2n37" />
+        <activity android:name=".P2n36" />
+        <activity android:name=".P2n35" />
+        <activity android:name=".P2n34" />
+        <activity android:name=".P2n33" />
+        <activity android:name=".P2n32" />
+        <activity android:name=".P2n31" />
+        <activity android:name=".P2n30" />
+        <activity android:name=".P2n29" />
+        <activity android:name=".P2n28" />
+        <activity android:name=".P2n26" />
+        <activity android:name=".P2n25" />
+        <activity android:name=".P2n24" />
+        <activity android:name=".P2n23" />
+        <activity android:name=".P2n22" />
+        <activity android:name=".P2n21" />
+        <activity android:name=".P2n20" />
+        <activity android:name=".P2n19" />
+        <activity android:name=".P2n18" />
+        <activity android:name=".P2n17" />
+        <activity android:name=".P2n16" />
+        <activity android:name=".P2n15" />
+        <activity android:name=".P2n14" />
+        <activity android:name=".P2n13" />
+        <activity android:name=".P2n12" />
+        <activity android:name=".Topage1" />
+        <activity
+            android:name=".ui.main.ui.main.ui.main.Chapter4"
+            android:label="@string/title_activity_chapter4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.main.ui.main.Chapter3"
+            android:label="@string/title_activity_chapter3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.main.Chapter2"
+            android:label="@string/title_activity_chapter2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Frament"
+            android:label="@string/title_activity_frament"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".P2n11" />
+        <activity android:name=".P2n10" />
+        <activity android:name=".P2n9" />
+        <activity android:name=".P2n8" />
+        <activity android:name=".P2n7" />
+        <activity android:name=".P2n6" />
+        <activity android:name=".P2n5" />
+        <activity android:name=".P2n4" />
+        <activity android:name=".P2n3" />
+        <activity android:name=".P2n2" />
+        <activity android:name=".P2n0" />
+        <activity android:name=".P2n1" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Page4" />
+        <activity android:name=".Page3" />
+        <activity android:name=".Page2" />
+        <activity android:name=".Page1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

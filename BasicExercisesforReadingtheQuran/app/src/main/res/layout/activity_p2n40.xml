@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpage2next"
+    tools:context=".P2n40">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="678dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@+id/P2n1t1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  ยามมีความเครียด ความวิตกกังวล และความเสียใจ"
+                android:textAllCaps="false"
+                android:textColor="#A7083E"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.027" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="   اللَّهُمَّ إنِّي عَبْدُكَ، ابْنُ عَبدِكَ، ابْنُ أمَتِكَ، نَاصِيَتي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بهِ نَفْسَكَ، أوْ أنْزَلْتَهُ فِي كِتَابِكَ، أوْ عَلَّمْتَهُ أحَداً مِنْ خَلْقِكَ، أوِ اسْتأثَرْتَ بِهِ فِي عِلْمِ الغَيْبِ عِنْدَكَ، أنْ تَجْعَلَ القُرْآنَ رَبِيْعَ قَلبِي، وَنُورَ صَدْرِي، وجَلاءَ حُزْنِي، وَذَهَابَ هَمِّي"
+                android:textColor="#673AB7"
+                android:textSize="36sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/P2nt1v1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      อ่านว่า"
+                android:textColor="#F7030303"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.081"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.45" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="387dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="      อัลลอฮุมม่า อินนี อับดุก้า อิบนุอับดิก้า อิบนุอ้าม่าตี้ก้า นาซิย่าตี บิย่าดิก้า มาดินฟีย่าฮุกมุก้า อัดลุนฟีย่าก่อดออู้ก้า อัซอะลุก้า บิกุลอิสมิน ฮุว่าละก้า ซัมมัยต้าบิฮีนัฟซะก้า เอาอันซัลต้าฮูฟีกิตาบิก้า เอาอัลลัมต้าฮู อะหะดัน มินค็อลกี้ก้า อะวิซตะซัรฺต้า บิฮี ฟีอิลมิลฆ็อยบิอินดะก้า อันตัจอ้าลัลกุรอาน่า รอบีอ้า ก็อลบี ว่านูร่อ ซ็อดรี ว่าญะลาอ้า ฮุสนี วะซ่าฮาบ้า ฮัมมี"
+                android:textColor="#03A9F4"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.43"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.59" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      หมายความว่า"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.085"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.693" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="
+      โอ้อัลลอฮฺ แท้จริงฉันเป็นบ่าวของพระองค์ เป็นลูกของบ่าวชายของพระองค์ เป็นลูกของบ่าวหญิงของพระองค์ กระหม่อมของฉันอยู่ในพระหัตถ์ของพระองค์ คำตัดสินของพระองค์ย่อมผ่านมายังตัวของฉัน คำพิพากษาของพระองค์ย่อมผ่านมายังตัวของฉัน ฉันขอต่อพระองค์ ด้วยกับทุกพระนามที่เป็นของพระองค์ ที่พระองค์ใช้เรียกตัวพระองค์เอง หรือประทานมันลงมาในคัมภีร์ของพระองค์ หรือที่พระองค์สอนให้กับบ่าวคนใดคนหนึ่งของพระองค์ หรือที่พระองค์เก็บเอาไว้อยู่ในความรู้ที่เร้นลับ ณ ที่พระองค์ ขอให้พระองค์ทรงทำให้อัลกุรอานเป็นความสดใสเบ่งบานในหัวใจของฉัน เป็นแสงสว่างภายในหัวอกของฉัน เป็นสิ่งที่ขับไล่ความทุกข์โศกของฉันให้หมดไป และเป็นสิ่งที่ทำให้ความวิตกของฉันมลายไปสิ้น"
+                android:textColor="#8BC34A"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.446"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.939" />
+
+
+        </LinearLayout>
+        />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

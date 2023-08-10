@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgpage2next"
+    android:layout_height="match_parent"
+    tools:context=".P2n18">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="678dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/P2n1t1"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:text="  ยามมีพายุพัดแรง"
+                android:textAllCaps="false"
+                android:textColor="#A7083E"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.454"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.027" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:text="اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا ، وَخَيْرَ مَا فِيهَا ، وخَيْرَ مَا أُرْسِلَتْ بِهِ ، وَأَعُوْذُ بِكَ مِنْ شَرِّهَا ، وَشَرِّ مَا فِيهَا ، وَشَرِّ مَا أُرْسِلَتْ بِهَُُِِ"
+                android:textColor="#673AB7"
+                android:textSize="36sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/P2nt1v1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  อ่านว่า"
+                android:textColor="#F7030303"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.081"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.45" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:text=" อัลลอฮุมมะ อินนี อัสอะลุกะ ค็อยเราะฮา วะค็อยเราะมาฟีฮา วะค็อยเราะมาอุรสิลัต บิฮี วะอะอูซุบิกะ มินชัรริฮา วะชัรริมาฟีฮา วะชัรริมาอุรสิลัต บิฮี"
+                android:textColor="#03A9F4"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.43"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.59" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  หมายความว่า"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.085"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.693" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="  โอ้อัลลอฮฺ ฉันขอสิ่งที่ดีของมัน และสิ่งที่ดีที่อยู่ในตัวมัน และสิ่งที่ดีที่ถูดพัดพามากับมัน และฉันขอความคุ้มครองให้พ้นจากสิ่งชั่วร้ายของมัน และสิ่งชั่วร้ายที่อยู่ในตัวมัน และสิ่งชั่วร้ายที่ถูดพัดพามากับมัน"
+                android:textColor="#8BC34A"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.446"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.939" />
+
+
+        </LinearLayout>
+        />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
